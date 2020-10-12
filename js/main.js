@@ -47,21 +47,6 @@ slideWrap.addEventListener('transitionend', function() {
     })
 }, false);
 
-next.addEventListener('click', function() {
-    index = -1;
-    mask.style.justifyContent = 'flex-start';
-    slideWrap.style.transform = 'translate(-100%)';  
-  });
-  
-prev.addEventListener('click', function() {
-    if (index === -1) {
-      index = 1;
-      slideWrap.appendChild(slideWrap.firstElementChild);
-    }
-    mask.style.justifyContent = 'flex-end';    
-    slideWrap.style.transform = 'translate(100%)';  
-});
-
 setInterval(() => {
     slideWrap.addEventListener('transitionend', function() {  
         slideWrap.style.transition = 'none';
