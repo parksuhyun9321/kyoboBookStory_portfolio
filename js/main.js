@@ -71,7 +71,7 @@ setInterval(() => {
         })
       }, false);
     slideWrap.style.transform = 'translate(-100%)';
-}, 2000);
+}, 4000);
 
 // #section01  
 
