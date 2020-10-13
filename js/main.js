@@ -58,6 +58,8 @@ setInterval(() => {
     slideWrap.style.transform = 'translate(-100%)';
 }, 4000);
 
+// 자동 슬라이드 (오픈소스)
+
 // #section01  
 
 
