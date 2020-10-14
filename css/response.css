@@ -235,9 +235,6 @@
     top: 20px;
     right: 20px;
   }
-  #section04 .contentsBox {
-    padding: 0px;
-  }
   #section04 .contentsBox div ul li:after {
     top: -5px;
   }
