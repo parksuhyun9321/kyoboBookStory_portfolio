@@ -123,8 +123,9 @@
                     }
                     .btnSearch {
                         position: absolute;
-                        top: 4px;
+                        top: 50%;
                         right: 5px;
+                        transform: translateY(-50%);
                         cursor: pointer;
                         z-index: 1;
                         i {
