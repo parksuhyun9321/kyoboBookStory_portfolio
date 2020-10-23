@@ -10,6 +10,9 @@
     margin: 0;
     padding: 0 10px;
   }
+  #section01 {
+    width: 100%;
+  }
   #section01 .mask {
     padding: 0;
   }
@@ -22,6 +25,12 @@
   }
   #section03 .contentsBox {
     padding: 40px 10px;
+  }
+  #footer .contentsBox {
+    padding: 0;
+  }
+  #footer .contentsBox .address {
+    padding: 15px;
   }
 }
 
@@ -83,13 +92,13 @@
 @media all and (max-width: 1120px) {
   #section04 .contentsBox {
     flex-direction: column;
-    padding: 0 10px;
   }
   #section04 .contentsBox div {
-    border-bottom: 1px solid #d9d9d9;
+    padding: 0 10px;
   }
   #section04 .contentsBox div.notice {
     padding-right: 0;
+    border-bottom: 1px solid #d9d9d9;
   }
   #section04 .contentsBox div.news h3 {
     padding-top: 10px;
@@ -115,9 +124,6 @@
   }
   #section04 .contentsBox div ul li a .date {
     display: none;
-  }
-  #footer .other {
-    border-top: none;
   }
 }
 
