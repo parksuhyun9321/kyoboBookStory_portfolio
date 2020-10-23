@@ -29,9 +29,24 @@ const mask = document.querySelector("#section01 .mask");
 const slideWrap = document.querySelector("#section01 .slideWrap");
 const pagination = document.querySelector("#section01 .pagination");
 const bullets = document.querySelectorAll(".pagination li");
-const next = document.querySelector("#section01 .btnNext");
-const prev = document.querySelector("#section01 .btnPrev");
-let index = 0;
+const next = document.querySelector("#section01 .slideNext");
+const prev = document.querySelector("#section01 .slidePrev");
+let index;
+
+next.addEventListener("click",function(){
+    index= -1;
+    mask.style.justifyContent = "flex-start";
+    slideWrap.style.transform = "translate(-33.33%)";
+});
+
+prev.addEventListener("click",function(){
+    if(index === -1){
+        slideWrap.appendChild(slideWrap.firstElementChild);
+    }
+    index= 1;
+    mask.style.justifyContent = "flex-end";
+    slideWrap.style.transform = "translate(33.33%)";
+});
 
 slideWrap.addEventListener('transitionend', function() {  
     if (index === 1) {
@@ -47,18 +62,13 @@ slideWrap.addEventListener('transitionend', function() {
     })
 }, false);
 
+// 슬라이드 (오픈소스)
+
 setInterval(() => {
-    slideWrap.addEventListener('transitionend', function() {  
-        slideWrap.style.transition = 'none';
-        slideWrap.style.transform = 'translate(0)';
-        setTimeout(() => {
-          slideWrap.style.transition = 'all 0.5s';
-        })
-      }, false);
-    slideWrap.style.transform = 'translate(-100%)';
+    slideWrap.style.transform = 'translate(-33.33%)';
 }, 4000);
 
-// 자동 슬라이드 (오픈소스)
+// 자동 
 
 // #section01  
 
