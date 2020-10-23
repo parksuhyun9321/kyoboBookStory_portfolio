@@ -11,6 +11,7 @@
         padding: 0 10px;
     }
     #section01 {
+        width : 100%;
         .mask {
             padding: 0;
         }
@@ -31,6 +32,14 @@
     #section03 {
         .contentsBox {
             padding: 40px 10px;
+        }
+    }
+    #footer {
+        .contentsBox {
+            padding: 0;
+            .address {
+                padding: 15px;
+            }
         }
     }
 }
@@ -104,11 +113,11 @@
     #section04 {
         .contentsBox {
             flex-direction: column;
-            padding: 0 10px;
             div {
-                border-bottom: 1px solid #d9d9d9;
+                padding: 0 10px;
                 &.notice {
                     padding-right: 0;
+                    border-bottom: 1px solid #d9d9d9;
                 }
                 &.news {
                     h3 {
@@ -140,11 +149,6 @@
                     }
                 }
             }
-        }
-    }
-    #footer {
-        .other {
-            border-top: none;
         }
     }
 }
