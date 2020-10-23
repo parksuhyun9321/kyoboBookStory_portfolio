@@ -56,7 +56,7 @@ setInterval(() => {
 
  window.addEventListener("scroll",function(){
     let st = window.pageYOffset;
-    console.log(st)
+    // console.log(st)
     if(st >= 50){
         document.querySelector("#header").style.position = "fixed";
     }
