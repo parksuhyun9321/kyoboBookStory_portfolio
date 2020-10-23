@@ -13,9 +13,6 @@
   #section01 {
     width: 100%;
   }
-  #section01 .mask {
-    padding: 0;
-  }
   #section02 .contentsBox .ipList {
     justify-content: space-around;
   }
