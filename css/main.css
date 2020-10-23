@@ -4,24 +4,33 @@ article {
 }
 
 #section01 {
+  position: relative;
+  width: 1300px;
+  margin: 0 auto;
   padding: 200px 0 70px;
 }
 
 #section01 .mask {
   position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
   overflow: hidden;
 }
 
 #section01 .mask .slideWrap {
   display: flex;
-  transition: 0.25s ease;
+  flex-shrink: 0;
+  width: 300%;
+  height: 100%;
+  transition: all 0.5s;
 }
 
 #section01 .mask .slideWrap .slide {
-  position: relative;
+  display: flex;
+  flex-basis: 33.33%;
   flex-shrink: 0;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
 }
 
 #section01 .mask .slideWrap .slide a {
@@ -30,19 +39,25 @@ article {
 
 #section01 .mask .slideWrap .slide a .bgBox img {
   width: 100%;
+  height: 430px;
 }
 
 #section01 .mask button {
   position: absolute;
-  width: 70px;
-  height: 70px;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
+  width: 80px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
+  z-index: 2;
 }
 
-#section01 .mask button.btnNext {
+#section01 .mask button.slidePrev {
+  left: 0;
+}
+
+#section01 .mask button.slideNext {
   right: 0;
 }
 
@@ -244,6 +259,10 @@ article {
 
 #section04 .contentsBox div.notice {
   padding-right: 50px;
+}
+
+#section04 .contentsBox div.notice:after {
+  display: none;
 }
 
 #section04 .contentsBox div h3 {
