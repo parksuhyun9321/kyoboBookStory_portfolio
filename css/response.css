@@ -87,6 +87,9 @@
 }
 
 @media all and (max-width: 1120px) {
+  #section03 .contentsBox .subStoryBox li a .txt dt {
+    font-size: 1.4rem;
+  }
   #section04 .contentsBox {
     flex-direction: column;
   }
@@ -161,7 +164,7 @@
     margin-left: 15px;
   }
   #section03 .contentsBox .subStoryBox li a .txt dt {
-    font-size: 1.4rem;
+    width: auto;
     text-align: left;
   }
   #section03 .contentsBox .subStoryBox li a .txt dd {
