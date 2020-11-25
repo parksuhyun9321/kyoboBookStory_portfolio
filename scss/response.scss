@@ -130,6 +130,9 @@
       div {
         border-bottom: 1px solid #d9d9d9;
         padding: 0 10px;
+        &.notice {
+          padding-right: 10px;
+        }
         &.news {
           border: none;
           h3 {
