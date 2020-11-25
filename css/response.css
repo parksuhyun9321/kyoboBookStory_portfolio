@@ -97,6 +97,9 @@
     border-bottom: 1px solid #d9d9d9;
     padding: 0 10px;
   }
+  #section04 .contentsBox div.notice {
+    padding-right: 10px;
+  }
   #section04 .contentsBox div.news {
     border: none;
   }
