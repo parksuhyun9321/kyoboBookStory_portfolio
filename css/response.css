@@ -3,6 +3,7 @@
     display: none;
   }
 }
+
 @media all and (max-width: 1300px) {
   article {
     width: 100%;
@@ -29,6 +30,7 @@
     padding: 15px;
   }
 }
+
 @media all and (max-width: 1230px) {
   #header {
     text-align: left;
@@ -83,6 +85,7 @@
     height: 300px;
   }
 }
+
 @media all and (max-width: 1120px) {
   #section04 .contentsBox {
     flex-direction: column;
@@ -90,9 +93,6 @@
   #section04 .contentsBox div {
     border-bottom: 1px solid #d9d9d9;
     padding: 0 10px;
-  }
-  #section04 .contentsBox div.notice {
-    padding-right: 10px;
   }
   #section04 .contentsBox div.news {
     border: none;
@@ -123,6 +123,7 @@
     display: none;
   }
 }
+
 @media all and (max-width: 910px) {
   #section03 .contentsBox .mainStoryBox {
     flex-direction: column;
@@ -184,6 +185,7 @@
     display: none;
   }
 }
+
 @media all and (max-width: 670px) {
   #section01 .mask button {
     width: 40px;
@@ -208,6 +210,7 @@
     display: none;
   }
 }
+
 @media all and (max-width: 490px) {
   #header #logo a img {
     width: 140px;
