@@ -164,9 +164,10 @@ article {
                         dt {
                             font-weight: 700;
                             font-size: 2rem;
-                            height: 1em;
+                            width: 10em;
                             overflow: hidden;
                             text-overflow: ellipsis;
+                            white-space: nowrap;
                             margin-top: 5px;
                         }
                         dd {
