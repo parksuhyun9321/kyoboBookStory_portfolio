@@ -142,7 +142,7 @@
 
 #header #gnb .gnbList > li .searchBox .btnSearch {
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 5px;
   transform: translateY(-50%);
   cursor: pointer;
