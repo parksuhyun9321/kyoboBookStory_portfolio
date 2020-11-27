@@ -110,15 +110,18 @@
                 }
                 .searchBox {
                     position: relative;
-                    bottom: 4px;
+                    bottom: 2px;
                     input {
                         height: 27px;
                         outline: none;
-                        font-size: 2rem;
+                        font-size: 1.8rem;
                         padding: 0 10px;
                         border-color: #06397a;
                         &::-webkit-search-cancel-button {
                             display: none;
+                        }
+                        &::placeholder {
+                            font-size: 1.2rem;
                         }
                     }
                     .btnSearch {
