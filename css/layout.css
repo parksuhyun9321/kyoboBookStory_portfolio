@@ -125,19 +125,23 @@
 
 #header #gnb .gnbList > li .searchBox {
   position: relative;
-  bottom: 4px;
+  bottom: 2px;
 }
 
 #header #gnb .gnbList > li .searchBox input {
   height: 27px;
   outline: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 0 10px;
   border-color: #06397a;
 }
 
 #header #gnb .gnbList > li .searchBox input::-webkit-search-cancel-button {
   display: none;
+}
+
+#header #gnb .gnbList > li .searchBox input::placeholder {
+  font-size: 1.2rem;
 }
 
 #header #gnb .gnbList > li .searchBox .btnSearch {
