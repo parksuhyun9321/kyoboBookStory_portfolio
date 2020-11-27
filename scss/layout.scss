@@ -156,6 +156,15 @@
                         }
                     }
                 }
+                &:last-child {
+                    &:hover {
+                        a {
+                            &:after {
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
                 a {
                     position: relative;
                     display: inline-block;
@@ -188,10 +197,11 @@
                             font-size: 1rem;
                         }
                     }
-                    button {
+                    a {
                         position: absolute;
-                        top: 1px;
+                        top: 50%;
                         right: 20px;
+                        transform: translateY(-50%);
                         width: 20px;
                         height: 20px;
                         i {
