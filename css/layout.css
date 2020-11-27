@@ -179,6 +179,10 @@
   opacity: 1;
 }
 
+#header #gnb .resizeGnbList li:last-child:hover a:after {
+  opacity: 0;
+}
+
 #header #gnb .resizeGnbList li a {
   position: relative;
   display: inline-block;
@@ -218,15 +222,16 @@
   font-size: 1rem;
 }
 
-#header #gnb .resizeGnbList li .searchDepth button {
+#header #gnb .resizeGnbList li .searchDepth a {
   position: absolute;
-  top: 1px;
+  top: 50%;
   right: 20px;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
 }
 
-#header #gnb .resizeGnbList li .searchDepth button i {
+#header #gnb .resizeGnbList li .searchDepth a i {
   font-size: 1.6rem;
 }
 
