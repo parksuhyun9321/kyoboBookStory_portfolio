@@ -167,11 +167,12 @@
     margin-left: 15px;
   }
   #section03 .contentsBox .subStoryBox li a .txt dt {
-    width: auto;
     text-align: left;
   }
   #section03 .contentsBox .subStoryBox li a .txt dd {
     display: block;
+    height: 2.5em;
+    overflow: hidden;
   }
   #sideBar {
     display: block;
