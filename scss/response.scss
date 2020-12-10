@@ -205,11 +205,12 @@
               flex-wrap: wrap;
               margin-left: 15px;
               dt {
-                width: auto;
                 text-align: left;
               }
               dd {
                 display: block;
+                height: 2.5em;
+                overflow: hidden;
               }
             }
           }
