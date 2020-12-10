@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
 #header {
   position: absolute;
   width: 100%;
